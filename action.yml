@@ -1,5 +1,8 @@
 name: "github-action-comment-pull-request"
 description: "Comment a pull request with the provided message"
+branding:
+  icon: 'message-circle'  
+  color: 'red'
 inputs:
   message:
     description: 'Message that should by displayed inside the pull request'

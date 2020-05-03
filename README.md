@@ -30,7 +30,7 @@ jobs:
                 reactions: "+1 | -1 | laugh | hooray | confused | heart | rocket | eyes"
 ````
 
-See exeamples in [opened PR](https://github.com/mb2dev/github-action-comment-pull-request/pull/3)
+See example in [opened PR](https://github.com/mb2dev/github-action-comment-pull-request/pull/3)
 
 # Build
 

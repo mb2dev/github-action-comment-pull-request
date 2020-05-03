@@ -2,10 +2,10 @@
 
 # Github Action - Comment Pull request
 
-This github action comment an opened PR with a given message. You can also put reactions to the comment.
+This github action comments an opened PR with a given message. You can also put some reactions to the comment.
 
 ## Inputs
- - message : The message that you want display inside the comment.
+ - message : The message you want to display inside the comment.
  - github token: The `GITHUB_TOKEN` secret. You can use the default `${{ secret.GITHUB_TOKEN }}` to tag the message with the github-actions bot .
  - reactions: A list of reactions separated by `|` 
       - reaction suported : +1 | -1 | laugh | hooray | confused | heart | rocket | eyes

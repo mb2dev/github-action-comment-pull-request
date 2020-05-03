@@ -1,4 +1,4 @@
-name: "action-comment-pull-request"
+name: "github-action-comment-pull-request"
 description: "Comment a pull request with the provided message"
 inputs:
   message:

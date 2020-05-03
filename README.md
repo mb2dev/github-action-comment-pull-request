@@ -1,3 +1,5 @@
+![.github/workflows/comment-pr.yml](https://github.com/mb2dev/github-action-comment-pull-request/workflows/.github/workflows/comment-pr.yml/badge.svg?branch=test%2Ftest-comment-on-pull-request)
+
 # Github Action - Comment Pull request
 
 This github action comment an opened PR with a given message. You can also put reactions to the comment.

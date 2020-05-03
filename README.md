@@ -25,7 +25,7 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Comment a pull_request
-              uses: ./
+              uses: mb2dev/github-action-comment-pull-request@1.0.0
               with:
                 message: "Hello, It's my first comment with Github action !"
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

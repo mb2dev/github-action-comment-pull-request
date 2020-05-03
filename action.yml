@@ -7,9 +7,13 @@ inputs:
   GITHUB_TOKEN:
     description: 'Github token of the repository'
     required: true
+  reactions:
+    description: 'A list of reaction separated by | to add to the comment'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.message }}
     - ${{ inputs.GITHUB_TOKEN }}
+    - ${{ inputs.reactions }}

@@ -14,7 +14,7 @@
   "author": "mb2Dev",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.2.*",
+    "@actions/core": "^1.9.*",
     "@actions/github": "^1.0.0"
   },
   "devDependencies": {
